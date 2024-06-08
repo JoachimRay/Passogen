@@ -81,6 +81,29 @@ button span:not(hover) {
     border-radius: 50%;
 }
 
+.card {
+  display: none;
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background:#212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+  -15px -15px 30px rgb(60, 60, 60);
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
 
 .banter-loader__box:nth-child(3n) {
     margin-right: 0;
